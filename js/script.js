@@ -29,7 +29,7 @@ window.addEventListener("mouseout", function () {
   mouse.y = undefined;
 });
 
-addEventListener("click", (event) => {
+addEventListener("mousedown", (event) => {
   mouse.x = event.x;
   mouse.y = event.y;
 });
