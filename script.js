@@ -29,9 +29,13 @@ window.addEventListener("mouseout", function () {
   mouse.y = undefined;
 });
 
-canvas.addEventListener("mouseup", function(event) {
-  mouse.x = event.x;
-  mouse.y = event.y;
+canvas.addEventListener("mousedown", function(event) {
+  let band = true
+  if(band){
+    mouse.x = event.x;
+    mouse.y = event.y;
+    band = false
+  }
 });
 
 addEventListener("resize", () => {
