@@ -29,7 +29,7 @@ window.addEventListener("mouseout", function () {
   mouse.y = undefined;
 });
 
-addEventListener("mousedown", function(event) {
+canvas.addEventListener("mousedown", function(event) {
   mouse.x = event.x;
   mouse.y = event.y;
 });
