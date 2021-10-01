@@ -38,6 +38,21 @@ addEventListener("mouseup", () => {
   mouseDown = false;
 });
 */
+/*
+canvas.addEventListener("mousedown", function(event) {
+  let band = true
+  mouse.x = event.x = undefined;
+  mouse.y = event.y = undefined;
+  if(band){
+    mouse.x = event.x;
+    mouse.y = event.y;
+    band = false
+  }else{
+    mouse.x = event.x = undefined;
+    mouse.y = event.y = undefined;
+  }
+});
+*/
 
 canvas.addEventListener("mousedown", function(event) {
   let band = true
