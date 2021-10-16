@@ -1,7 +1,7 @@
 # Collisions
 
-I was so many time wanted to do some things similar to this
-its a collitions simulation with particles
+I wanted to do some things like this a big time ago
+It is a collitions simulation with particles (balls, cicles)
 
 ## ONE DIMENSIONAL NEWTONIAN
 
